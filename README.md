@@ -15,4 +15,4 @@ If you're in the specific group of friends that I'm buddied up with, just send m
 7. Have fun!
 
 ## Licenses
-[Neofox](https://volepon.ink/emojis/neofox) under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+[Neofox](https://volepon.ink/emojis/neofox) by [Volpeon](https://volepon.ink) under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
