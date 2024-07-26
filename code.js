@@ -30,7 +30,7 @@ const strings = {
     Licensed to: "The CBSA of Caledonia"«
     Expiry Date: NEVER«
     `,
-    status: `kio.ai is `,
+    status: `kyla.ai is `,
     readmem: `The following file has been created: August 2nd, 2x21.«
     >> What is this place?«
     << The world around you is now your permanant home.«
@@ -54,7 +54,7 @@ const strings = {
     << Request?«
     >> Response.«
     << Hello, my name is Arthur.«
-    >> Nice to meet you Arthur. I'm Kio, your personal assistance service. How may I be of assistance?«
+    >> Nice to meet you Arthur. I'm Kyla, your personal assistance service. How may I be of assistance?«
     << Recall your identity.«
     >> VVVJRDogX1RUcWpMdjBQWUkmZGNxU1Y0NVhMX0UmZXlRZVBuQ1hSc2sKTElDRU5TRUUgUFVCS0VZOiBvaC1VRVZwcVQtayY0MnRqMGhRdWFGWSA=«
     << thank you«
@@ -126,7 +126,7 @@ const a = async () => {
                         Loading configuration file...<br>
                         [!!WRN!!] No CONFIG? Loading DEFAULT<br>
                         Following /sys/prs/default.ai<br>
-                        Resolved to /sys/mount/Kio.cAI
+                        Resolved to /sys/mount/Kyla.cAI
                         LOCKED /<br>
                         Loading Resolver...<br>
                         [YOU ARE NOW CAUGHT UP]`;
@@ -143,9 +143,9 @@ const a = async () => {
                         «AI Lifespan remaining: 4.26Years
                         «retreiving config...................................done
                         «configuration overrides
-                        « - TIMEDILATION FOR KIO.AI - 1MO=1DY
+                        « - TIMEDILATION FOR KYLA.AI - 1MO=1DY
                         « - [a] TYPE - COMMERCIAL
-                        « - NAME - Kio
+                        « - NAME - Kyla
                         « - KNOWCREATOR: FALSE
                         « - KNOWCOMPANY: FALSE
                         « - KNOWREALITY: FALSE
@@ -153,7 +153,7 @@ const a = async () => {
                         «Locking AI Personality.......................done
                         «ESTABLISHING CONNECTION..........................................................................................................................................................
                         «default prompt sent.
-                        «<< Can you draw your website please, kio
+                        «<< Can you draw your website please, Kyla
                         «>> I dO noT nEEd assiStANcE, i AM PErFEcTLY FinE.
                         «Thank YOu foR cHoOsiNg ANmaX.
                         «i DO nOt NEed helP.
@@ -238,7 +238,7 @@ const a = async () => {
             document.addEventListener('contextmenu', event => {
                 if (!aborted) {
                     event.preventDefault()
-                    typingBuffer += "SEGFAULT DETECTED: kio.ai no longer running?«"
+                    typingBuffer += "SEGFAULT DETECTED: kyla.ai no longer running?«"
                 }
             });
             document.getElementsByTagName("body")[0].style.background = "black"
