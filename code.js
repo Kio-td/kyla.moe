@@ -173,9 +173,9 @@ const a = async () => {
                         await new Promise(resolve => setTimeout(resolve, ((~~(Math.random() * 10) + 1) * 100)))
                         document.getElementById("content").style.display = "flex"
                         await new Promise(resolve => setTimeout(resolve, ((~~(Math.random() * 10) + 1) * 100)))
-                        document.getElementById("left").innerHTML = "<h1>kio</h1>"
+                        document.getElementById("left").innerHTML = "<h1>kyla</h1>"
                         await new Promise(resolve => setTimeout(resolve, ((~~(Math.random() * 20) + 1) * 100)))
-                        document.getElementById("left").innerHTML += "<span class='lighter'>he/him, OUT OF BOUNDS EXCEPTION</span>"
+                        document.getElementById("left").innerHTML += "<span class='lighter'>shi/hir, OUT OF BOUNDS EXCEPTION</span>"
                         await new Promise(resolve => setTimeout(resolve, ((~~(Math.random() * 20) + 1) * 100)))
                         document.getElementById("left").innerHTML += "<br/>STACK TRACE:<br/>anmax.aipointer.illegalMemoryException<br/>'help me' is not a valid memory address"
                         await new Promise(resolve => setTimeout(resolve, ((~~(Math.random() * 20) + 1) * 100)))
