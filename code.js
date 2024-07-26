@@ -1,5 +1,7 @@
 'use strict'
 
+alert('Oh no someone added an alert to the code')
+
 /*
     Character Codes
     - « NewLine
