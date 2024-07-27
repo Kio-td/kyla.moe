@@ -69,6 +69,12 @@ const strings = {
     `
 }
 
+const shitass = document.getElementById("cute");
+
+shitass.addEventListener("click", () => {
+    alert('KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE')
+});
+
 const startTypingLoop = async () => {
     while (true) {
         const random = ((~~(Math.random() * 10) + 1) * 10)
