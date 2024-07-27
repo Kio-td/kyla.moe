@@ -29,6 +29,11 @@ body {
   color: white;
 }
 
+#plush {
+  cursor: pointer;
+  border-bottom: 1px dashed;
+}
+
 #prompt {
   padding: 2vw;
   background: #303030
