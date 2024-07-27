@@ -70,10 +70,16 @@ const strings = {
 }
 
 const shitass = document.getElementById("cute");
+const cum = document.getElementById("prostate");
 
 shitass.addEventListener("click", () => {
-    alert('KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE')
+    alert('KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE KYLA IS CUTE');
 });
+
+cum.addEventListener("click", () => {
+    alert('augh *cums* nya~');
+});
+
 
 const startTypingLoop = async () => {
     while (true) {
