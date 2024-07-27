@@ -69,6 +69,11 @@ const strings = {
     `
 }
 
+document.getElementById("coolWithThat").addEventListener("click", () => {
+    document.getElementById("warning").classList.add("fadeout")
+    setTimeout(() => {document.getElementById("warning").remove()}, 1000)
+})
+
 const shitass = document.getElementById("cute");
 const cum = document.getElementById("prostate");
 
