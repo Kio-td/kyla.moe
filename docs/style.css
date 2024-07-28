@@ -160,17 +160,21 @@ a img {
 
 .falling {
   position: absolute;
-  left: 50%;
-  top: 0;
   animation: fall 3s linear forwards infinite;
+  --offset-angle: 0;
 }
 
 @keyframes fall {
   0% {
-    transform: translateY(-50vh) rotate(0);
+    transform: translateY(-50vh) rotate(var(--offset-angle));
   }
 
   100% {
-    transform: translateY(150vh) rotate(180deg);
+    transform: translateY(150vh) rotate(calc(180deg + var(--offset-angle)));
   }
+}
+
+
+.tiny {
+  width: 100px;
 }
