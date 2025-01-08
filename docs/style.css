@@ -1,5 +1,5 @@
 body {
-  background: #fab387;
+  background: #36013f;
   margin: 0;
   height: 100vh;
   width: 100vw;
@@ -10,6 +10,7 @@ body {
   overflow: hidden;
   max-height: 100vh;
   border-radius: 15px;
+  color: #FF69B4;
 }
 
 #warning {
@@ -102,10 +103,10 @@ body {
 }
 
 #content {
-  box-shadow: -25px 15px 10px lightgray;
+  box-shadow: -25px 15px 10px #FF69B4;
   border-radius: 7px;
-  background: white;
-  border: 1px solid gray;
+  background: #060b11;
+  border: 1px solid #36013f;
   display: flex;
   justify-content: space-between;
   overflow: hidden auto;
@@ -126,11 +127,11 @@ h1 {
 
 a {
   padding-right: 15px;
-  color: black;
+  color: #FFFDD0;
 }
 
 .lighter {
-  color: gray;
+  color: #FFFDD0;
 }
 
 #right {
@@ -177,4 +178,8 @@ a img {
 
 .tiny {
   width: 100px;
+}
+
+img {
+  filter: opacity(70%);
 }
